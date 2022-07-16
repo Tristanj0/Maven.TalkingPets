@@ -2,13 +2,13 @@ package io.zipcoder.polymorphism.models;
 
 import io.zipcoder.polymorphism.interfaces.Pets;
 
-public class Cat extends Pets {
-    public Cat(String petName) {
+public class Tiger extends Pets {
+
+    public Tiger(String petName) {
         super(petName);
     }
 
     protected String speak() {
-        return "meow";
+        return "roar";
     }
 }
-
